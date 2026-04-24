@@ -26,8 +26,9 @@ Presentation-Slides.pdf
 ### Video
 Presentation-Video.mp4
 
+## Implementation
+The data analysis outcome is like this. 
 
-The outcome is like this. 
 ### Task 1
 ![Task1 Image](/Week02/activity01/Task1.png)
 
