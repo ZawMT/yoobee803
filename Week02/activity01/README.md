@@ -20,7 +20,12 @@ The data are colleted from 12 different sites and saved in 12 different files â€
 
 12 sites are Aoti Zhongxin, Changping, Dingling, Dongsi, Guanyuan, Gucheng, Huairou, Nongzhangguan, Shunyi, Tiantan, Wanliu and Wanshouxigong.
 
-w2_act1.py reads the first 5 records fo the Aoti Zhongxin data.
+## Presentation
+### Slide
+Presentation-Slides.pdf
+### Video
+Presentation-Video.mp4
+
 
 The outcome is like this. 
 ### Task 1
