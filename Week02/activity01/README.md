@@ -7,6 +7,9 @@ Describe the data structure and do just Task-1 including (share your GitHub link
 •Display the first 5 rows
 •Identify column names and data types
 •Count total rows and columns
+
+Details Tasks:
+![Tasks Image](/Week02/activity01/Tasks.png)
  
  ## Notes
  The data are in the `data` folder. The data are about air quaility in Beijing.
@@ -20,4 +23,20 @@ The data are colleted from 12 different sites and saved in 12 different files �
 w2_act1.py reads the first 5 records fo the Aoti Zhongxin data.
 
 The outcome is like this. 
-![Outcome image](/Week02/activity01/act01.png)
+### Task 1
+![Task1 Image](/Week02/activity01/Task1.png)
+
+### Task 2
+![Task2 Image](/Week02/activity01/Task2.png)
+
+### Task 3
+![Task3 Image](/Week02/activity01/Task3.png)
+
+### Task 4
+![Task4 Image](/Week02/activity01/Task4.png)
+
+### Task 5
+![Task5 Image](/Week02/activity01/Task5.png)
+
+### Task 6
+![Task6 Image](/Week02/activity01/Task6.png)
