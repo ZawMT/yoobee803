@@ -4,8 +4,10 @@ import numpy as np
 
 df = pd.read_csv('age_networth.csv')
 
+print(df.head())
+
 correlation = df['Age'].corr(df['Net Worth'])
-print(f"Pearson Correlation Coefficient: {correlation:.4f}")
+print(f"Pearson Correlation Coefficient: {correlation:.5f}")
 
 m, b = np.polyfit(df['Age'], df['Net Worth'], 1)
 
