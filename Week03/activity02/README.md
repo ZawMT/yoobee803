@@ -17,3 +17,14 @@ The data analysis outcome is like this.
 ### Data Cleaning 
 Here, we need to assume that all the cleaning process is done with the cooperation of Subject Matter Experts. 
 ![Cleaned Data Image](/Week03/activity02/DataCleaning.png)
+
+## Data Visualization
+
+### Box Plot
+![Box Plot Image](/Week03/activity02/boxplot.png)
+
+### Scatter Plot
+![Scatter Plot Image](/Week03/activity02/age_salary.png)
+
+### Heatmap
+![Heatmap Image](/Week03/activity02/heatmap.png)
