@@ -107,8 +107,9 @@ FROM (
         END AS Corruption_Group
     FROM read_csv_auto('{DATA}')
 )
-ORDER BY Corruption_Group, Rank_in_Group```
+ORDER BY Corruption_Group, Rank_in_Group
+```
 
-Similar to the previous query, but in this query, the data are sorted in the group that each belongs to.
+Similar to the previous query, but in this query, the detail data are shown while being sorted in the group that each belongs to.
 
 ![Result 3](/Week04/activity02/images/Table3.png)
