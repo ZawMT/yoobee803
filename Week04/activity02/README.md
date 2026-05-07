@@ -74,7 +74,8 @@ FROM (
     FROM read_csv_auto('{DATA}')
 )
 GROUP BY Corruption_Group
-ORDER BY Corruption_Group```
+ORDER BY Corruption_Group
+```
 
 The subquery groups the data into two: 'High Corruption Perception' if Perceptions_of_Corruption is greater than equal to the average, and if not, 'Low Corruption Perception'. Then average values for other columns are calculated based on the two groups of data.
 
