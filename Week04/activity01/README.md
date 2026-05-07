@@ -13,12 +13,13 @@ Calculating basic statistic values results as follows:
 ![Basic statistics](/Week04/activity01/images/03-BasicStatistics.png)
 
 Checking duplicate data results as follows:
+
 ![Duplicate data](/Week04/activity01/images/04-DuplicateCheck.png)
 
 Checking if there is any outliers using IQR method results as follows:
 ![Outliers](/Week04/activity01/images/05-OutlierCheck.png)
 
-The IQR is calculated as 75% - 25%. Therefore, it is 6.26 - 4.24, so it is 2.02.
+The IQR is calculated as 75% - 25%. Therefore, for example, it is 6.26 - 4.24, so it is 2.02 for Happiness_Score.
 IQR method defines that any value below (Q1 - (1.5 × IQR)), or above (Q3 + (1.5 × IQR)) is flagged as an outlier.
 Q1 is the lower quartile or 25% line of the data, and Q3 is upper quartile or 75%.
 
