@@ -24,6 +24,7 @@ IQR method defines that any value below (Q1 - (1.5 × IQR)), or above (Q3 + (1.5
 Q1 is the lower quartile or 25% line of the data, and Q3 is upper quartile or 75%.
 
 Checking data types results as follows:
+
 ![Data Types](/Week04/activity01/images/06-DataTypeCheck.png)
 
 ### Data Visualization
