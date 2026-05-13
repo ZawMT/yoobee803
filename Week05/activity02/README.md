@@ -30,6 +30,6 @@ Using the updated data, a dashboard is created displaying four features.
 1. A series of cards displaying 4 key information: Sum. of Sales Amount, Sum of Quantity Sold, Sum of Profit, and Average of Discount Percentage given.
 2. An overview information in a Clustered Bar Chart for Sum of Sales and Sum of Profit for three product types.
 3. A comparison information about the distribution of sales in four regions in a Pie Chart
-4. A Line Chart showing some detail figures going up and down in the period
+4. A Line Chart showing Sales amount fluctuating in the period
 
 ![Dashboard](./images/Dashboard.png)
