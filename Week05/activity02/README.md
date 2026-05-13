@@ -9,7 +9,7 @@ The data is about the sale figures information for 3 types of products — Cloth
 
 As the preliminary checking, "Column Quality" are checked, the data is shown as clean in the screenshot below.
 "Column Quantity" check takes care of checking data types in the same columns are uniform and logical. 
-![Data quality check 1](./images/DataExplore1.png)
+![Data quality check 1](./images/DataExplore.png)
 
 To check further, some columns are selected for detail checking.
 When the Product name is "T-shirt", then Product Category should be Clothing, and so on.
@@ -22,7 +22,7 @@ So the original "Product Category" column is renamed as "Product Category - Give
 
 As result, the data will look like as in the screenshot below.
 
-![Data quality check 2](./images/DataExplore2.png)
+![Data quality check 2](./images/DataExplore-Amended.png)
 
 ### Dashboard
 Using the updated data, a dashboard is created displaying four features.
