@@ -6,7 +6,7 @@ Develop a script to train and test an SVM model, and share both the code and the
 The data is loaded and printed first 5 records.
 ![Loading data](./images/Explore1.png)
 
-The data is explored and checked for any null.
+The data is explored and checked for any null.  
 ![Data check](./images/Explore2.png)
 
 The model is trained and evaluated — accuracy, confusion matrix, and classification report are printed.
