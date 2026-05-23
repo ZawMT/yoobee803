@@ -19,7 +19,8 @@ Actual
 ```
 
 Meaning:
-TP (Sick) — predicted as Sick, actually Sick
-TN (Healthy) — predicted as Healthy, and it was really Healthy
-FP (Sick) — predicted as Sick, but it was actually Healthy
-FN (Healthy) — predicted as Healthy, but actually Sick
+TP (Sick) — predicted as Sick, actually Sick. 
+TN (Healthy) — predicted as Healthy, and it was really Healthy. 
+FP (Sick) — predicted as Sick, but it was actually Healthy. 
+FN (Healthy) — predicted as Healthy, but actually Sick. 
+
