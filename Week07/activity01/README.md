@@ -10,12 +10,13 @@ Share the description and figure of your confusion matrix here.
  
 ### Activity note
 The confusion matrix should be as follows:
-
+```
                                 Prediction
                             Sick            Healthy
             Sick            13 (TP)          2 (FN)
 Actual
             Healthy          1 (FP)          14 (TN)
+```
 
 Meaning:
 TP (Sick) — predicted as Sick, actually Sick
