@@ -13,9 +13,9 @@ The confusion matrix should be as follows:
 ```
                                 Prediction
                             Sick            Healthy
-            Sick            13 (TP)          2 (FN)
+            Sick            20 (TP)          2 (FN)
 Actual
-            Healthy          1 (FP)          14 (TN)
+            Healthy          1 (FP)          7 (TN)
 ```
 
 Meaning:
