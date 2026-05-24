@@ -18,9 +18,9 @@ Actual
             Healthy          1 (FP)          7 (TN)
 ```
 
-Meaning:
-TP (Sick) — predicted as Sick, actually Sick. 
-TN (Healthy) — predicted as Healthy, and it was really Healthy. 
-FP (Sick) — predicted as Sick, but it was actually Healthy. 
-FN (Healthy) — predicted as Healthy, but actually Sick. 
+Meaning:   
+TP (Sick) — predicted as Sick, actually Sick.   
+TN (Healthy) — predicted as Healthy, and it was really Healthy.   
+FP (Sick) — predicted as Sick, but it was actually Healthy.   
+FN (Healthy) — predicted as Healthy, but actually Sick.   
 
