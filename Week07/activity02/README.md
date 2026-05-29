@@ -24,11 +24,11 @@ See help link below for more information about the dataset: https://www.kaggle.c
 ## Activity Note
 
 ### Cleaned dataset
-![Cleaned Dataset]
+[!Cleaned Dataset]
 https://u.pcloud.link/publink/show?code=XZTP2I5ZFefTS14AKsRN7gNFzmv26uuLLnKV
 
 ### Presentation Slides
-![Presentation Slides](./W7-A2.pptx)
+[Presentation Slides](./W7-A2.pptx)
 
 ### Report
 [Report](Report.md)
