@@ -24,7 +24,6 @@ See help link below for more information about the dataset: https://www.kaggle.c
 ## Activity Note
 
 ### Cleaned dataset
-[Cleaned Dataset]
 https://u.pcloud.link/publink/show?code=XZTP2I5ZFefTS14AKsRN7gNFzmv26uuLLnKV
 
 ### Presentation Slides
