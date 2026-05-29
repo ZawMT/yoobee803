@@ -31,8 +31,8 @@ https://u.pcloud.link/publink/show?code=XZTP2I5ZFefTS14AKsRN7gNFzmv26uuLLnKV
 ![Presentation Slides](./W7-A2.pptx)
 
 ### Report
-![Report](Report.md)
+[Report](Report.md)
 
 ### Presentation Video
-![Presentation Video](./W7-A2.pptx)
+[Presentation Video](./W7-A2.pptx)
 
