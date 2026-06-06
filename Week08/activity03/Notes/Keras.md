@@ -2,8 +2,8 @@
 Keras is a high-level deep learning API that makes building neural networks simpler and more readable.
 
 Keras provides built-in datasets: `tf.keras.datasets.cifar10`
-Keras provides building blocks (Conv2D, Dense, Dropout, etc.): `tf.keras.layers`
-Keras. provides the model: `tf.keras.models.Model`
+Keras provides building blocks (Conv2D, Dense, Dropout, etc.): `tf.keras.layers`   
+Keras. provides the model: `tf.keras.models.Model`  
 
 While TensorFlow is the powerful engine doing the heavy math (matrix multiplications, gradients, GPU ops), Keras is the friendly interface on top that allows building models in clean, readable Python instead of raw TensorFlow operations.
 
