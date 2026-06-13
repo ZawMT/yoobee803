@@ -16,9 +16,9 @@
 | 1 | 48.53  | 2.43 | 33.59 | 10660 |
 | 2 | 35.41  | 2.44 | 46.27 | 4544 |
 
-Cluster 0 will be named as **AA: Active Adults**
-Cluster 1 will be named as **AM: Active Mature**
-Cluster 2 will be named as **EA: Easy Adults**
+Cluster 0 will be named as **AA: Active Adults**  
+Cluster 1 will be named as **AM: Active Mature**    
+Cluster 2 will be named as **EA: Easy Adults**   
 
 The distribution is as follows:
 | Cluster | No. of people |
