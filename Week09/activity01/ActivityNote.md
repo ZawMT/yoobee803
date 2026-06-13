@@ -9,7 +9,8 @@
 - Chosen K value: 3 (Elbow method)
 ![Elbow plot](elbow_plot.png)
 
-- Resulted clusters   
+- Resulted clusters.  
+   
 | Cluster | Age | Work per week | Average session duration | Steps per day |
 | --- | --- |  --- | --- |  --- |
 | 0 | 31.61  | 4.36 | 53.55 | 10985 |
