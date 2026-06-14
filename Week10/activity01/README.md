@@ -4,6 +4,17 @@ Use the sample dataset to implement both Linear Regression and Polynomial Regres
 ## Week 10 - Activity 1.2 - Predict salary using Regression model
 To continue W10.A1.1 - Predict the salary for a person with 14, 14.5, and 15 years of experience using linear and polynomial regression. Share your GitHub Link here.
  
- ## Activity Note
+ ### Activity Note
+
+ #### Data Loading and Preprocessing
+ ![DataLoad](./screenshots/DataCleaning.png)
+
+ #### Error Metrics
+ ![ErrorMetrics](./screenshots/ErrorMetrics.png)
+
+ #### Estimations
+ ![Estimations](./screenshots/Estimation.png)
+
  The learning note of the activity:
  [AcivityNote](StudyNote.md)
+
