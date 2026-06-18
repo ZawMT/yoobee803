@@ -1,3 +1,4 @@
 .DS_Store
+__pycache__/
 Week07/activity02/Fraud Detection-dataset.csv
 Week07/activity02/outputs/cleaned_dataset.csv
