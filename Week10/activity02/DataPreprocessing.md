@@ -1,6 +1,6 @@
 ## Data Preprocessing
 
-[ReadMe](README.md) [Descriptive](Descriptive.md)
+[ReadMe](README.md)        [Descriptive](Descriptive.md)
 
 ### About data
 
@@ -9,7 +9,7 @@
 | Source | https://archive.ics.uci.edu/dataset/45/heart+disease |
 | About | Clinical and diagnostic data used to check or diagnose the presence of heart disease |
 | No. of records | 303 |
-| Columns | 14 Features and Target (0 as absence of disease, and 1-4 for disease) |
+| Columns | 13 Features and 1 Target (0 as absence of disease, and 1-4 for disease) |
 
 ### Preprocessing information
 | Check | Status |
