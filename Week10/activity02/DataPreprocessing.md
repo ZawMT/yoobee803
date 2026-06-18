@@ -1,6 +1,6 @@
 ## Data Preprocessing
 
-[ReadMe](README.md) [Descriptive](ActivityNote.md)
+[ReadMe](README.md) [Descriptive](Descriptive.md)
 
 ### About data
 
