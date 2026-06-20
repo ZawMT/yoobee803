@@ -5,6 +5,7 @@ from data_preprocessing import preprocess
 from descriptive_analysis import descriptive_analysis
 from exploratory_analysis import exploratory_analysis
 from predictive_analysis import predictive_analysis, predictive_analysis_multiclass
+from clustering_analysis import clustering_analysis, clustering_analysis_multiclass
 
 
 # ── Data Loading ──────────────────────────────────────────────────────────────
@@ -53,6 +54,8 @@ def main():
     exploratory_analysis(df)
     predictive_analysis(df)
     predictive_analysis_multiclass(df)
+    clustering_analysis(df)
+    clustering_analysis_multiclass(df)
 
 
 if __name__ == "__main__":

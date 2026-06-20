@@ -13,4 +13,5 @@ Firstly, the data is previewed and preprocessed. After that, the data is process
 [ExploratoryAnalysis](Exploratory.md)
 
 [PredictiveAnalysis](Predictive.md)
- 
+
+[Clustering](Clustering.md)

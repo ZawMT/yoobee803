@@ -1,6 +1,6 @@
 ## Predictive Analysis
 
-[ReadMe](README.md)        [Preprocessing](DataPreprocessing.md)
+[ReadMe](README.md)        [Clustering](Clustering.md)
 
 The predictive analysis gives the feature importance — how much that feature is related to the target —  the range of 0 to 4 or there is disease or not. 
 | Feature Importance (Disease or Not) | Feature Importace (0 - 4) |
