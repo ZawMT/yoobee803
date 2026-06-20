@@ -14,4 +14,4 @@ Firstly, the data is previewed and preprocessed. After that, the data is process
 
 [PredictiveAnalysis](Predictive.md)
 
-[Clustering](Clustering.md)
+[Clustering](Clustering.md) 
