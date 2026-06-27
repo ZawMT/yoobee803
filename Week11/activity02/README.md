@@ -19,5 +19,7 @@ Develop a forecasting model to predict the next year of time-series data related
 
 [All features for LSTM](./reports/04_Predict_All_LSTM.md)
 
+[All features for ANN](./reports/04_Predict_All_ANN.md)
+
 ### Additional Study Note
 [Study note](./StudyNote.md)
