@@ -32,6 +32,7 @@
 ![04_correlation_heatmap.png](charts/04_correlation_heatmap.png)
 
 #### Elbow Method (to choose K)
+The elbow method suggests k=3 (largest inertia drop from k=2 to k=3). However, k=4 was chosen to match the 4 known knowledge level classes in the dataset.   
 ![05_elbow.png](charts/05_elbow.png)
 
 #### Clustering with PCA
