@@ -17,8 +17,7 @@
 | Low | 129 | 32.0% |
 | Middle | 122 | 30.3% |
 | High | 102 | 25.3% |
-| Very Low | 26 | 6.5% |
-| very_low | 24 | 6.0% |
+| Very Low | 50 | 12.4% |
 
 ## Preprocessing
 
@@ -37,10 +36,10 @@
 
 | Model | Accuracy |
 | --- | --- |
-| Logistic Regression | 0.8642 |
-| KNN | 0.8395 |
-| Random Forest | 0.9259 |  **Best**
-| XGBoost | 0.9136 |
+| Logistic Regression | 0.9506 |
+| KNN | 0.9012 |
+| Random Forest | 0.9753 |  **Best**
+| XGBoost | 0.9753 |
 
 **Best model: Random Forest**
 
