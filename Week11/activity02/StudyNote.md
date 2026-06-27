@@ -29,7 +29,7 @@ With `predict_all` (reduced epochs):
 
 Even fast epochs accumulate into hours at this scale.
 
-### 3. Fundamental Mismatch Between Model and Data
+#### 3. Fundamental Mismatch Between Model and Data
 
 Neural networks are designed for:
 - Large datasets (thousands of samples)
@@ -39,12 +39,12 @@ A 3-point series provides only **2 training samples** per evaluation run. The mo
 spends hundreds of epochs trying to learn from 2 data points — most of that computation
 produces no real learning benefit.
 
-### 4. No Cross-Series Vectorisation
+#### 4. No Cross-Series Vectorisation
 
 Each series is trained completely independently with no ability to batch training across
 series. TensorFlow starts cold for every single series.
 
-### 5. CPU-Bound Training
+#### 5. CPU-Bound Training
 
 Without a GPU, every matrix operation in the neural network runs sequentially on CPU cores.
 

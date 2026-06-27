@@ -13,8 +13,8 @@ from models import MODEL_REGISTRY
 
 REPORTS_DIR = "reports"
 MODEL_NAMES  = list(MODEL_REGISTRY.keys())
-ANN_EPOCHS   = 500
-LSTM_EPOCHS  = 200
+ANN_EPOCHS   = 5
+LSTM_EPOCHS  = 5
 
 
 # ------------------------------------------------------------------

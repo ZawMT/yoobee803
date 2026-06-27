@@ -15,4 +15,6 @@ Develop a forecasting model to predict the next year of time-series data related
 ### Time series 
 [Total Population](./reports/03_Predict_TotalPop.md)
 
-[All features for LR_ARIMA_XGBoost](./reports/04_Predict_All_LR_XGB_ARIMA.md)
+[All features for LR, ARIMA, and XGBoost](./reports/04_Predict_All_LR_XGB_ARIMA.md)
+
+[All features for LSTM](./reports/04_Predict_All_LSTM.md)

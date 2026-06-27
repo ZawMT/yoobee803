@@ -10,14 +10,16 @@ runtime manageable across hundreds of series.
 
 import os
 import importlib.util
+from datetime import datetime
 import pandas as pd
 import numpy as np
 from models import MODEL_REGISTRY
 
 REPORTS_DIR  = "reports"
 MODEL_NAMES  = list(MODEL_REGISTRY.keys())
-ANN_EPOCHS   = 200   # reduced for speed across many series
-LSTM_EPOCHS  = 100   # reduced for speed across many series
+ANN_EPOCHS    = 5
+LSTM_EPOCHS   = 5
+SERIES_LIMIT  = 100   # set to None to process all series
 
 
 # ------------------------------------------------------------------
@@ -213,7 +215,12 @@ def run(models="all"):
         vals  = grp_sorted["Estimate(percent)"].tolist()
 
         if i % 50 == 0 or i == total_series:
-            print(f"  Progress: {i}/{total_series} series ...")
+            ts = datetime.now().strftime("%H:%M:%S")
+            print(f"  [{ts}] Progress: {i}/{total_series} series ...")
+
+        if SERIES_LIMIT and len(results) >= SERIES_LIMIT:
+            print(f"  >> SERIES_LIMIT={SERIES_LIMIT} reached — stopping early.")
+            break
 
         row = {
             "Measure":      measure,
