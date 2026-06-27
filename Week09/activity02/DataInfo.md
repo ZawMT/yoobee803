@@ -18,6 +18,8 @@
 | Very Low | 26 | 6.5% |
 | very_low | 24 | 6.0% |
 
+**Note**: "very_low" and "Very Low" are treated as the same class and merged during preprocessing.
+
 ### Data Columns
 **STG**: (The degree of study time for goal object materails), (input value)    
 **SCG**: (The degree of repetition number of user for goal object materails) (input value)    

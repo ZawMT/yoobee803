@@ -10,7 +10,7 @@
 | Target | UNS (User Knowledge Level) |
 | Classes | Very Low, Low, Middle, High |
 
-## Class Distribution
+## Class Distribution (after label normalisation)
 
 | Class | Count | % |
 | --- | --- | --- |
@@ -21,10 +21,13 @@
 
 ## Preprocessing
 
-- No null values found
-- Duplicate rows checked and removed if present
-- Features scaled using StandardScaler
-- Target encoded using LabelEncoder
+| Step | Result |
+| --- | --- |
+| Null values | 0 found |
+| Duplicate rows | 0 found |
+| Label normalisation | Unified `very_low` → `Very Low` |
+| Feature scaling | StandardScaler applied |
+| Target encoding | LabelEncoder applied |
 
 ## Clustering — K-Means
 

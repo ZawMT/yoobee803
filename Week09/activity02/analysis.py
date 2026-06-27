@@ -377,6 +377,9 @@ def step6_report(X_clean, y_clean, results, best_name):
         ]
     )
 
+    null_total = X_clean.isnull().sum().sum()
+    dupe_count = len(X_clean) - len(X_clean.drop_duplicates())
+
     content = f"""# User Knowledge Modeling — Analysis Report
 
 ## Dataset Overview
@@ -389,7 +392,7 @@ def step6_report(X_clean, y_clean, results, best_name):
 | Target | UNS (User Knowledge Level) |
 | Classes | Very Low, Low, Middle, High |
 
-## Class Distribution
+## Class Distribution (after label normalisation)
 
 | Class | Count | % |
 | --- | --- | --- |
@@ -397,10 +400,13 @@ def step6_report(X_clean, y_clean, results, best_name):
 
 ## Preprocessing
 
-- No null values found
-- Duplicate rows checked and removed if present
-- Features scaled using StandardScaler
-- Target encoded using LabelEncoder
+| Step | Result |
+| --- | --- |
+| Null values | {null_total} found |
+| Duplicate rows | {dupe_count} found |
+| Label normalisation | Unified `very_low` → `Very Low` |
+| Feature scaling | StandardScaler applied |
+| Target encoding | LabelEncoder applied |
 
 ## Clustering — K-Means
 
